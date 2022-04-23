@@ -5,9 +5,7 @@ import Cozinhar from './components/Cozinhar';
 function App() {
   return (
     <div>
-      <Cozinhar />
-      <Cozinhar />
-    
+      <Cozinhar titulo={"Meu passatempo favorito: Cozinhar."}/>
     </div>
   
   );
