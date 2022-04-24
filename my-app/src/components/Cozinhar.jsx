@@ -2,7 +2,7 @@ import cozinhar from "../assets/cozinhar.jpeg";
 import heart from "../assets/icons/heart.png";
 import chat from "../assets/icons/chat.png";
 import send from "../assets/icons/send.png";
-import save from "../assets/icons/save-instagram.png";
+import save from "../assets/icons/save.png";
 import "../style/cozinhar.css";
 
 const Cozinhar = (props) => {
