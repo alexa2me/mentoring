@@ -1,3 +1,21 @@
-.cozinhar {
-    font-size: 20px;
+.container {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 12px;
+}
+
+.three-icons img {
+    margin-right: 12px;
+}
+
+.container-icons img {
+  height: 25px;
+  width: 25px;
 }
