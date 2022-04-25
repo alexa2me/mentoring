@@ -1,0 +1,90 @@
+
+:root{
+    --max-width:60vw;
+    --base-width:700px;
+    --perfil-width:7vw;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.card-cachoeira {
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: 30vw;
+    max-width: var(--max-width);
+    align-items: center;
+}
+
+.card-header {
+    width: var(--base-width);
+    max-width: var(--max-width);
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 5px;
+}
+
+.card-perfil {
+    width: var(--perfil-width);
+    height: var(--perfil-width);
+    min-width: 35px;
+    min-height: 35px;
+    max-width: 80px;
+    max-height: 80px;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.card-cachoeira p {
+    width: var(--base-width);
+    max-width: calc(var(--max-width) - var(--perfil-width));
+    font-size: 3.5vw;
+    font-weight: 400;
+    text-align: right;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-imagem {
+    width: var(--base-width);
+    height: var(--base-width);
+    max-width: var(--max-width);
+    max-height: var(--max-width);
+    object-fit: cover;
+}
+
+.icones {
+    width: var(--base-width);
+    max-width: var(--max-width);
+    padding: 5px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 10px;
+    justify-content: flex-start;
+}
+
+.card-icone {
+    width: 2vw;
+    height: 2vw;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.icones span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 2;
+}
+
+@media screen and (min-width: 700px) {
+    .card-cachoeira p {
+       font-size: 25px;
+    }
+    
+  }
