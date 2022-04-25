@@ -1,0 +1,24 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-around;
+}
+
+.imagem_principal{
+   display: flex;
+   align-items: center;
+
+    width: 480px ;
+}
+
+.card_icone{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;    
+    justify-content: space-between;
+}
+.icone{
+    width: 25px;
+}
