@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Cozinhar from './components/Cozinhar';
+import Jogar from './components/Jogar';
+
 import Comida from './components/Comida';
 import iconeLike from './assets/icons/heart.png'
 import iconeSend from './assets/icons/send.png'
@@ -10,6 +12,17 @@ import Cachoeira from './components/Cachoeira';
 function App() {
   return (
     <div>
+      <Jogar 
+        perfil="https://avatars.githubusercontent.com/u/91093762?s=96&v=4"
+        secao="Gamerverso"
+        texto="Com a alta dos combustiveis gamers analisam substituir veiculos por Yoshi." 
+        imagem="https://www.rockandpop.cl/wp-content/uploads/2017/09/Super-Mario-World-768x576.jpg"
+        heart={iconeLike}
+        send={iconeSend}
+        save={iconeSave}
+        chat="https://cdn-icons-png.flaticon.com/512/589/589671.png"
+      />
+    
       <Cozinhar titulo="Cozinhar" />
       <Comida 
       fotoPerfil = "https://avatars.githubusercontent.com/u/72248716?s=400&u=5f83653a02405f3b5cfd5c22044ede97a0a9b44b&v=4"
