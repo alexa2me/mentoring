@@ -1,24 +1,52 @@
+.imagem_perfil{
+    border-radius: 50%;
+    width: 75px;
+}
+
+.texto_perfil{
+    margin-top: 37px;
+    font-size: 17px;
+}
+
+.header_jogar{
+    display: flex;
+    justify-content: space-between;
+    gap:380px;
+}
+
+.texto{
+    position: absolute;
+    color:#fff;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: justify;
+    width: 500px;
+    line-height: 30px;
+    height: 30px;
+}
 .card{
     display: flex;
-    flex-direction: column;
-    align-items: center;    
-    justify-content: space-around;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
 .imagem_principal{
    display: flex;
-   align-items: center;
+    width: 550px ;
 
-    width: 480px ;
-}
-
-.card_icone{
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;    
-    justify-content: space-between;
 }
 .icone{
-    width: 25px;
+    width: 23px;
+}
+
+.card_icones{
+    padding: 3px ;
+    display: flex;
+    column-gap: 10px;
+    
+}
+
+.icone_salvar{
+    width: 23px;
+    margin-left: 400px;
 }
